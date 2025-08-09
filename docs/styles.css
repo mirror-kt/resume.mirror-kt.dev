@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+/* 印刷(PDF化)向けスタイル設定 */
+@media print {
+  /* サイドバー、ヘッダー、フッターなどを非表示にする */
+  .vocs_DocsLayout_gutterLeft,
+  .vocs_DocsLayout_gutterRight,
+  .vocs_DocsLayout_gutterTop,
+  .vocs_DocsLayout_gutterTopCurtain,
+  .vocs_Footer {
+    display: none;
+  }
+
+  /* 左サイドバー用にあったmargin-leftをリセット */
+  .vocs_DocsLayout_content_withSidebar {
+    margin-left: unset;
+  }
+}
+
+/* 1ページしかなく検索機能は不要なので非表示 */
+.vocs_DesktopSearch_search {
+  display: none;
+}

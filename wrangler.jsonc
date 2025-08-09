@@ -1,0 +1,12 @@
+{
+  "name": "resume",
+  "compatibility_date": "2025-08-06",
+  "assets": {
+    "directory": "./docs/dist"
+  },
+  "workers_dev": false,
+  "route": {
+    "pattern": "resume.mirror-kt.dev/*",
+    "zone_name": "mirror-kt.dev"
+  }
+}

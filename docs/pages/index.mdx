@@ -1,0 +1,143 @@
+import AgeFromBirthday from "../components/ageFromBirthday";
+import FlatSquareBadge from "../components/flatSquareBadge.tsx";
+
+
+# 職務経歴書
+
+## 基本情報
+| key  | value                                                      |
+|------|------------------------------------------------------------|
+| 氏名   | 叶 弥悟 (Kano Misato)                                         |
+| 生年月日 | 2004-03-05 ({<AgeFromBirthday birthday={"2004-03-05"} />}) |
+| 居住地  | 東京都                                                        |
+| 最終学歴 | 久留米工業高等専門学校 機械工学科 中退                                       |
+
+## 各種アカウント
+
+- <FlatSquareBadge text="mirror--kt" alt="GitHub" logo="GitHub" href="https://github.com/mirror-kt" brandColor="12100E" /> (個人用)
+- <FlatSquareBadge text="mkano--jpd" alt="GitHub" logo="GitHub" href="https://github.com/mkano-jpd" brandColor="12100E" /> (業務用)
+- <FlatSquareBadge text="@mirror__kt" alt="X" logo="x" href="https://x.com/mirror_kt" brandColor="000000" />
+- <FlatSquareBadge text="mirror__kt" alt="Zenn" logo="zenn" href="https://zenn.dev/mirror_kt" brandColor="3EA8FF" />
+
+## 保有資格
+- 応用情報技術者
+
+## 保有スキル
+
+- Webアプリケーションの設計・開発・運用（バックエンド、インフラ）
+- バックエンドの技術的負債解消・リアーキテクチャ
+- 開発環境立ち上げ (ビルド、自動テスト、CI/CD)
+- 勉強会、社内学習のコミュニティ形成
+- OSSへの貢献
+
+## 技術スタック
+
+<div className="flex gap-4">
+    <div>
+        |言語|経験年数 (個人開発含む)|
+        |---|---|
+        |<FlatSquareBadge text="Kotlin" alt="Kotlin" href="https://kotlinlang.org" logo="kotlin" brandColor="0095D5" />|7年|
+        |<FlatSquareBadge text="Java" alt="Java" href="https://www.java.com/ja/" logo="java" brandColor="007396" />|7年|
+        |<FlatSquareBadge text="Rust" alt="Rust" href="https://www.rust-lang.org" logo="rust" brandColor="28607F" />|4年|
+        |<FlatSquareBadge text="PHP" alt="PHP" href="https://www.php.net" logo="php" brandColor="474A8A" />|2年|
+        |<FlatSquareBadge text="TypeScript" alt="TypeScript" href="https://www.typescriptlang.org" logo="typescript" brandColor="007ACC" />|4年|
+    </div>
+    <div>
+        |フレームワーク|経験年数 (個人開発含む)|
+        |---|---|
+        |<FlatSquareBadge text="Spring Boot" alt="Spring Boot" href="https://spring.io/projects/spring-boot" logo="springboot" brandColor="6DB33F" />|4年|
+        |<FlatSquareBadge text="Ktor" alt="Ktor" href="https://ktor.io" logo="ktor" brandColor="087CFA" />|2年|
+        |<FlatSquareBadge text="React" alt="React" href="https://react.dev" logo="react" brandColor="45b8d8" />|4年|
+        |<FlatSquareBadge text="Vite" alt="Vite" href="https://ja.vite.dev" logo="vite" brandColor="646CFF" />|4年|
+        |<FlatSquareBadge text="Docker" alt="Docker" href="https://www.docker.com/ja-jp/" logo="docker" brandColor="46a2f1" />|7年|
+    </div>
+</div>
+
+## 職務経歴
+
+### 2024-08〜現在 [株式会社JPデジタル](https://jp-digital.jp) (株式会社Good Technology Company)
+
+- 2024-08 株式会社JPデジタルに入社
+- 2025-01 組織改編で開発組織が子会社の株式会社Good Technology Companyに移動、それに伴い転籍
+- 2025-08 組織改編で株式会社Good Technology Companyから株式会社JPデジタルへ100%出向
+
+一貫して同じ業務に携わっているためまとめて記載。
+
+#### [ゆうゆうポイント 交換サイト](https://site.jppt.pf.japanpost.jp)の開発
+
+| key  | value                                            |
+|------|--------------------------------------------------|
+| 開発規模 | フロントエンド3〜4名、バックエンド5〜6名程度のチームによるスクラム開発            |
+| 使用技術 | React、Vite、Kotlin、Spring Boot、AWS、GitHub Actions |
+
+##### 初期リリース
+
+入社してから初期リリースまで3ヶ月という短納期で、重大な不具合なくリリースに間に合うよう開発を進めた。
+
+API設計、データベース設計、開発環境の初期構築、CI/CD構築など。
+
+##### OpenTelemetryの導入
+
+旧来の時刻でのログ突合による障害調査では運用に限界が見えてきたため、AWS Distro for OpenTelemetryとApplication Signalsの導入を推進。
+`X-Amzn-Trace-Id`により、上流APIのログまで一貫して特定が可能になった。
+
+##### mysqldefによるマイグレーションの自動化
+
+手動でのDBマイグレーションによるオペレーターの作業負担を減らすため、[mysqldef](https://github.com/sqldef/sqldef)による自動マイグレーションを構築。
+GitHub Actionsによるデプロイフローの中で自動でマイグレーションを行うようになった。
+
+#### [ゆうIDマイページ](https://mypage.jpid.pf.japanpost.jp/my)の開発
+
+| key  | value                                         |
+|------|-----------------------------------------------|
+| 開発規模 | フロントエンド3名、バックエンド1名程度のチームによるスクラム開発             |
+| 使用技術 | Next.js、Kotlin、Spring Boot、AWS、GitHub Actions |
+
+##### ポータル的な機能を持つようリニューアル
+
+会員情報の編集機能しかなかった旧マイページから、ゆうIDでログインできる各種サービスへのポータル的な機能を持つページへリニューアルを行った。
+
+##### [TypeSpec](https://typespec.io)と[fabrikt](https://github.com/cjbooms/fabrikt)、[Orval](https://orval.dev)によるスキーマ駆動開発の推進
+
+納期が短く開発メンバーも少なかったため、最初にAPI定義を固めてしまい、その後はバックエンドとフロントエンドが並列して開発を進められるメリットを重視しスキーマ駆動開発を推進した。
+
+また上流APIのクライアントもOpenAPIから自動生成することで開発工数の削減に成功した。
+
+### 2023-04〜2024-02 [株式会社luco](https://www.luco.co.jp)
+
+- 2023-08〜2024-02 持病が発覚し休職
+- 2024-02 経営状況悪化により会社都合退職
+
+#### [スコラボ](https://www.sucolab.jp)の開発
+
+VTuber向けの配信画面作成サービス「スコラボ」のバックエンド開発に携わる。
+
+| key  | value                                  |
+|------|----------------------------------------|
+| 開発規模 | フロントエンド2名、バックエンド3名程度                   |
+| 使用技術 | Next.js、PHP、Laravel、GCP、GitHub Actions |
+
+##### 素材ストア「スコマド」との連携機能開発
+
+後述する素材ストア「スコマド」で購入した素材をスコラボ内で使用できるよう改修を行う。
+
+#### [スコマド](https://www.sucomado.jp)の開発
+
+スコラボで使用できる配信素材をクリエイターが出品し、配信者が購入できるCtoCのストアを開発。
+
+| key  | value                                  |
+|------|----------------------------------------|
+| 開発規模 | フロントエンド2名、バックエンド3名程度                   |
+| 使用技術 | Next.js、PHP、Laravel、GCP、GitHub Actions |
+
+##### GMO ペイメントゲートウェイを用いた決済機能の開発
+
+購入機能があるため、GMOペイメントゲートウェイを用いた決済機能の実装を行った。
+
+## 意欲・興味
+
+- ユーザー目線でプロダクトを作ることを目指しています。
+- 少人数チームで小さなリリースを素早く何度も行う、アジャイルな開発形式を好みます
+- 知識のドキュメント化が重要だと考えています。暗黙知を減らし集合知を増やす取り組みに興味があります。
+- 新しい挑戦(技術的なもの・制度的なもの)に積極的に取り組める環境を望みます
+
