@@ -1,0 +1,21 @@
+name: pull-request
+on: pull_request
+
+jobs:
+  preview-pdf:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: checkout
+        uses: actions/checkout@v4
+      - name: setup mise
+        uses: jdx/mise-action@v2
+      - name: yarn install
+        run: yarn install
+      - name: build pdf
+        run: yarn run export:pdf
+      - name: upload pdf to artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: 'resume.pdf'
+          path: 'resume.pdf'
