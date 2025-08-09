@@ -2,6 +2,11 @@ import { defineConfig } from "vocs";
 
 export default defineConfig({
   title: "Resume of Misato Kano",
+  font: {
+    default: {
+      google: "Noto Sans JP",
+    },
+  },
   sidebar: [
     {
       text: "Download as PDF",

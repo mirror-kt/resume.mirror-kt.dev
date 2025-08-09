@@ -254,18 +254,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@biomejs/biome@npm:2.1.3":
-  version: 2.1.3
-  resolution: "@biomejs/biome@npm:2.1.3"
+"@biomejs/biome@npm:2.1.4":
+  version: 2.1.4
+  resolution: "@biomejs/biome@npm:2.1.4"
   dependencies:
-    "@biomejs/cli-darwin-arm64": "npm:2.1.3"
-    "@biomejs/cli-darwin-x64": "npm:2.1.3"
-    "@biomejs/cli-linux-arm64": "npm:2.1.3"
-    "@biomejs/cli-linux-arm64-musl": "npm:2.1.3"
-    "@biomejs/cli-linux-x64": "npm:2.1.3"
-    "@biomejs/cli-linux-x64-musl": "npm:2.1.3"
-    "@biomejs/cli-win32-arm64": "npm:2.1.3"
-    "@biomejs/cli-win32-x64": "npm:2.1.3"
+    "@biomejs/cli-darwin-arm64": "npm:2.1.4"
+    "@biomejs/cli-darwin-x64": "npm:2.1.4"
+    "@biomejs/cli-linux-arm64": "npm:2.1.4"
+    "@biomejs/cli-linux-arm64-musl": "npm:2.1.4"
+    "@biomejs/cli-linux-x64": "npm:2.1.4"
+    "@biomejs/cli-linux-x64-musl": "npm:2.1.4"
+    "@biomejs/cli-win32-arm64": "npm:2.1.4"
+    "@biomejs/cli-win32-x64": "npm:2.1.4"
   dependenciesMeta:
     "@biomejs/cli-darwin-arm64":
       optional: true
@@ -285,62 +285,62 @@ __metadata:
       optional: true
   bin:
     biome: bin/biome
-  checksum: 10c0/0393412e965e41b1d6278208d895db0b030a465a4e6a7913d2165d61280c192ad3c95c1d0597e319b5980cee75a3ddf787a7e83698ddbfcc9b520734c407ef20
+  checksum: 10c0/4e25e80cf2f1ec23a84426fab415f1cf994b09a5f1481a1ea5c4a3d247e70a8d064357c3c4e91a00b7003a5cd254872a370d1df538c42d67d8d8a61b15f2df14
   languageName: node
   linkType: hard
 
-"@biomejs/cli-darwin-arm64@npm:2.1.3":
-  version: 2.1.3
-  resolution: "@biomejs/cli-darwin-arm64@npm:2.1.3"
+"@biomejs/cli-darwin-arm64@npm:2.1.4":
+  version: 2.1.4
+  resolution: "@biomejs/cli-darwin-arm64@npm:2.1.4"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"@biomejs/cli-darwin-x64@npm:2.1.3":
-  version: 2.1.3
-  resolution: "@biomejs/cli-darwin-x64@npm:2.1.3"
+"@biomejs/cli-darwin-x64@npm:2.1.4":
+  version: 2.1.4
+  resolution: "@biomejs/cli-darwin-x64@npm:2.1.4"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"@biomejs/cli-linux-arm64-musl@npm:2.1.3":
-  version: 2.1.3
-  resolution: "@biomejs/cli-linux-arm64-musl@npm:2.1.3"
+"@biomejs/cli-linux-arm64-musl@npm:2.1.4":
+  version: 2.1.4
+  resolution: "@biomejs/cli-linux-arm64-musl@npm:2.1.4"
   conditions: os=linux & cpu=arm64 & libc=musl
   languageName: node
   linkType: hard
 
-"@biomejs/cli-linux-arm64@npm:2.1.3":
-  version: 2.1.3
-  resolution: "@biomejs/cli-linux-arm64@npm:2.1.3"
+"@biomejs/cli-linux-arm64@npm:2.1.4":
+  version: 2.1.4
+  resolution: "@biomejs/cli-linux-arm64@npm:2.1.4"
   conditions: os=linux & cpu=arm64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@biomejs/cli-linux-x64-musl@npm:2.1.3":
-  version: 2.1.3
-  resolution: "@biomejs/cli-linux-x64-musl@npm:2.1.3"
+"@biomejs/cli-linux-x64-musl@npm:2.1.4":
+  version: 2.1.4
+  resolution: "@biomejs/cli-linux-x64-musl@npm:2.1.4"
   conditions: os=linux & cpu=x64 & libc=musl
   languageName: node
   linkType: hard
 
-"@biomejs/cli-linux-x64@npm:2.1.3":
-  version: 2.1.3
-  resolution: "@biomejs/cli-linux-x64@npm:2.1.3"
+"@biomejs/cli-linux-x64@npm:2.1.4":
+  version: 2.1.4
+  resolution: "@biomejs/cli-linux-x64@npm:2.1.4"
   conditions: os=linux & cpu=x64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@biomejs/cli-win32-arm64@npm:2.1.3":
-  version: 2.1.3
-  resolution: "@biomejs/cli-win32-arm64@npm:2.1.3"
+"@biomejs/cli-win32-arm64@npm:2.1.4":
+  version: 2.1.4
+  resolution: "@biomejs/cli-win32-arm64@npm:2.1.4"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"@biomejs/cli-win32-x64@npm:2.1.3":
-  version: 2.1.3
-  resolution: "@biomejs/cli-win32-x64@npm:2.1.3"
+"@biomejs/cli-win32-x64@npm:2.1.4":
+  version: 2.1.4
+  resolution: "@biomejs/cli-win32-x64@npm:2.1.4"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
@@ -1315,6 +1315,15 @@ __metadata:
   version: 0.11.0
   resolution: "@pkgjs/parseargs@npm:0.11.0"
   checksum: 10c0/5bd7576bb1b38a47a7fc7b51ac9f38748e772beebc56200450c4a817d712232b8f1d3ef70532c80840243c657d491cf6a6be1e3a214cff907645819fdc34aadd
+  languageName: node
+  linkType: hard
+
+"@playwright/browser-chromium@npm:^1.54.2":
+  version: 1.54.2
+  resolution: "@playwright/browser-chromium@npm:1.54.2"
+  dependencies:
+    playwright-core: "npm:1.54.2"
+  checksum: 10c0/7bffdceb2781a2fddcbf2651cd8eba07a777978c33a6d573492b6339113e44ce1b2081701e745e3563e8afd75ca234efb622e9f50c993cdd1f1e3fd8eebd40fd
   languageName: node
   linkType: hard
 
@@ -7606,17 +7615,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"playwright-chromium@npm:^1.54.2":
-  version: 1.54.2
-  resolution: "playwright-chromium@npm:1.54.2"
-  dependencies:
-    playwright-core: "npm:1.54.2"
-  bin:
-    playwright: cli.js
-  checksum: 10c0/660d3f918ca800fad3a00f6e89d007247c722ee83d34744cf820769c00ed6f2974e630d435edc6652e5492492c60340a5228247830e228c31ad04d5f861a4d21
-  languageName: node
-  linkType: hard
-
 "playwright-core@npm:1.54.2":
   version: 1.54.2
   resolution: "playwright-core@npm:1.54.2"
@@ -7626,7 +7624,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"playwright@npm:^1.52.0":
+"playwright@npm:^1.52.0, playwright@npm:^1.54.2":
   version: 1.54.2
   resolution: "playwright@npm:1.54.2"
   dependencies:
@@ -8191,15 +8189,16 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "resume.mirror-kt.dev@workspace:."
   dependencies:
-    "@biomejs/biome": "npm:2.1.3"
+    "@biomejs/biome": "npm:2.1.4"
+    "@playwright/browser-chromium": "npm:^1.54.2"
     "@types/react": "npm:^19.1.9"
-    playwright-chromium: "npm:^1.54.2"
+    playwright: "npm:^1.54.2"
     react: "npm:^19.1.1"
     react-dom: "npm:^19.1.1"
     tsx: "npm:^4.20.3"
     typescript: "npm:^5.9.2"
     vocs: "npm:^1.0.13"
-    wrangler: "npm:^4.28.0"
+    wrangler: "npm:^4.28.1"
   languageName: unknown
   linkType: soft
 
@@ -9505,9 +9504,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"wrangler@npm:^4.28.0":
-  version: 4.28.0
-  resolution: "wrangler@npm:4.28.0"
+"wrangler@npm:^4.28.1":
+  version: 4.28.1
+  resolution: "wrangler@npm:4.28.1"
   dependencies:
     "@cloudflare/kv-asset-handler": "npm:0.4.0"
     "@cloudflare/unenv-preset": "npm:2.6.0"
@@ -9529,7 +9528,7 @@ __metadata:
   bin:
     wrangler: bin/wrangler.js
     wrangler2: bin/wrangler.js
-  checksum: 10c0/10dc5866aade44a9f4ab5ebd47ab16274fea1173c39c2251e8960784bb7bf5b90ab719e95aea24a1473ee81a7e38ed86e0a60ba52a364f93bc11ad17866ff86b
+  checksum: 10c0/c7b1e2d83ad972510666708350dc5d1c6ede8a6acf00c751228079338fd85c4c01508e78f01b5bf7dd0b0ed876a46facf01759d1c37a94274172fe1e14845bf6
   languageName: node
   linkType: hard
 
