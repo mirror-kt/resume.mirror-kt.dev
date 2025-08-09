@@ -10,7 +10,7 @@ export default defineConfig({
   sidebar: [
     {
       text: "Download as PDF",
-      link: "https://github.com/mirror-kt",
+      link: "https://github.com/mirror-kt/resume.mirror-kt.dev/releases/latest/download/resume.pdf",
     },
   ],
   socials: [
