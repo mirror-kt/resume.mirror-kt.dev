@@ -12,7 +12,7 @@ jobs:
       contents: write
     steps:
       - name: checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
       - name: setup mise
         uses: jdx/mise-action@v3
       - name: yarn install
