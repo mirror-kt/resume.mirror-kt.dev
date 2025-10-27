@@ -12,14 +12,14 @@ jobs:
       contents: write
     steps:
       - name: checkout
-        uses: actions/checkout@v5
+        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
       - name: setup mise
-        uses: jdx/mise-action@v3
+        uses: jdx/mise-action@e3d7b8d67a7958d1207f6ed871e83b1ea780e7b0 # v3.3.1
       - name: yarn install
         run: yarn install
       - name: build pdf
         run: yarn run export:pdf
       - name: create release
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@6da8fa9354ddfdc4aeace5fc48d7f679b5214090 # v2.4.1
         with:
           files: resume.pdf
