@@ -9188,8 +9188,8 @@ __metadata:
   linkType: hard
 
 "vocs@npm:^1.0.13":
-  version: 1.1.0
-  resolution: "vocs@npm:1.1.0"
+  version: 1.1.1
+  resolution: "vocs@npm:1.1.1"
   dependencies:
     "@floating-ui/react": "npm:^0.27.16"
     "@hono/node-server": "npm:^1.19.5"
@@ -9267,7 +9267,7 @@ __metadata:
     react-dom: ^19
   bin:
     vocs: _lib/cli/index.js
-  checksum: 10c0/0a7857668c53a49eaacdde6dae98b510db969f65631b89d50a1d65cfd35b566b9271ee50598d087e7be4b851d7cd31653c5636740b8e3382a76871def53f0ae3
+  checksum: 10c0/7bda5a1c866083d24758511c8545584f76d96a3f4aa044604b1c9e1087c3cdf6875414cd2243b0dfcf9a3946fdbbc4550142374d21fe8ec85e1574c2afff6fae
   languageName: node
   linkType: hard
 
