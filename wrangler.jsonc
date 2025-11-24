@@ -4,7 +4,7 @@
   "assets": {
     "directory": "./docs/dist"
   },
-  "workers_dev": false,
+  "preview_urls": true,
   "route": {
     "pattern": "resume.mirror-kt.dev/*",
     "zone_name": "mirror-kt.dev"
