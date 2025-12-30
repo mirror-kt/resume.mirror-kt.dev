@@ -1,0 +1,16 @@
+{
+    "plugins": {
+        "mdx": true
+    },
+  "rules": {
+    "preset-japanese": true,
+    "ja-unnatural-alphabet": true,
+    "@textlint-ja/no-filler": true,
+    "@textlint-ja/no-synonyms": true,
+    "@textlint-rule/no-unmatched-pair": true,
+    "@textlint-rule/no-duplicate-abbr": true,
+    "@proofdict/proofdict": {
+      "dictURL": "https://proofdict.mirror-kt.dev/"
+    }
+  }
+}

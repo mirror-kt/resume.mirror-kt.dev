@@ -1,0 +1,5 @@
+{
+    "textlint.configPath": ".textlintrc.json",
+    "textlint.languages": [ "markdown", "mdx", "plaintext", "html"],
+    "textlint.run": "onType"
+}
