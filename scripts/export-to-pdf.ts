@@ -2,7 +2,7 @@ import { exec } from "node:child_process";
 import { chromium } from "playwright";
 
 console.log("Starting dev server...");
-const devServer = exec("yarn run dev");
+const devServer = exec("pnpm run dev");
 const hostRegex = /(http:\/\/localhost:\d+)/;
 let host: string | undefined;
 if (!devServer.stdout) {

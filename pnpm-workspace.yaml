@@ -1,0 +1,7 @@
+onlyBuiltDependencies:
+  - '@playwright/browser-chromium'
+  - esbuild
+  - sharp
+  - workerd
+
+minimumReleaseAge: 10080 # 7 days
