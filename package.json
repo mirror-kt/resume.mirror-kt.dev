@@ -15,30 +15,30 @@
     "deploy:preview": "wrangler versions upload"
   },
   "dependencies": {
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0",
-    "vocs": "^1.2.0"
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "vocs": "1.4.0"
   },
   "devDependencies": {
     "@biomejs/biome": "2.3.10",
-    "@playwright/browser-chromium": "^1.57.0",
-    "@proofdict/textlint-rule-proofdict": "^3.1.2",
-    "@textlint-ja/textlint-rule-no-filler": "^1.1.0",
-    "@textlint-ja/textlint-rule-no-synonyms": "^1.3.0",
-    "@textlint-rule/textlint-rule-no-duplicate-abbr": "^1.0.2",
-    "@textlint-rule/textlint-rule-no-unmatched-pair": "^2.0.4",
+    "@playwright/browser-chromium": "1.57.0",
+    "@proofdict/textlint-rule-proofdict": "3.1.2",
+    "@textlint-ja/textlint-rule-no-filler": "1.1.0",
+    "@textlint-ja/textlint-rule-no-synonyms": "1.3.0",
+    "@textlint-rule/textlint-rule-no-duplicate-abbr": "1.0.2",
+    "@textlint-rule/textlint-rule-no-unmatched-pair": "2.0.4",
     "@types/react": "^19.2.7",
-    "playwright": "^1.57.0",
-    "sudachi-synonyms-dictionary": "^16.0.0",
-    "textlint": "^15.4.0",
-    "textlint-filter-rule-comments": "^1.2.2",
-    "textlint-plugin-mdx": "^1.0.2",
-    "textlint-rule-en-spell": "^1.2.4",
-    "textlint-rule-ja-unnatural-alphabet": "^2.0.1",
-    "textlint-rule-preset-japanese": "^10.0.4",
-    "tsx": "^4.21.0",
-    "typescript": "^5.9.3",
-    "wrangler": "^4.52.0"
+    "playwright": "1.57.0",
+    "sudachi-synonyms-dictionary": "16.0.0",
+    "textlint": "15.5.0",
+    "textlint-filter-rule-comments": "1.2.2",
+    "textlint-plugin-mdx": "1.0.2",
+    "textlint-rule-en-spell": "1.2.4",
+    "textlint-rule-ja-unnatural-alphabet": "2.0.1",
+    "textlint-rule-preset-japanese": "10.0.4",
+    "tsx": "4.21.0",
+    "typescript": "5.9.3",
+    "wrangler": "4.54.0"
   },
   "packageManager": "pnpm@10.26.2"
 }
