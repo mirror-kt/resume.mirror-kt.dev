@@ -40,7 +40,7 @@ importers:
         specifier: 2.0.4
         version: 2.0.4
       '@types/react':
-        specifier: ^19.2.7
+        specifier: 19.2.7
         version: 19.2.7
       playwright:
         specifier: 1.57.0
