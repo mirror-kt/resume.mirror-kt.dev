@@ -15,8 +15,8 @@ importers:
         specifier: 19.2.3
         version: 19.2.3(react@19.2.3)
       vocs:
-        specifier: 1.4.0
-        version: 1.4.0(@types/node@25.0.3)(@types/react@19.2.7)(jiti@2.6.1)(lightningcss@1.30.2)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(rollup@4.54.0)(tsx@4.21.0)(typescript@5.9.3)
+        specifier: 1.4.1
+        version: 1.4.1(@types/node@25.0.3)(@types/react@19.2.7)(jiti@2.6.1)(lightningcss@1.30.2)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(rollup@4.54.0)(tsx@4.21.0)(typescript@5.9.3)
     devDependencies:
       '@biomejs/biome':
         specifier: 2.3.11
@@ -5076,8 +5076,8 @@ packages:
       yaml:
         optional: true
 
-  vocs@1.4.0:
-    resolution: {integrity: sha512-mXjO0ZSaafnWXXz9EbsTyy6NhII7OXV3NGb66BPxyH0dtEi29JsQfRzhpLwOczRAJA3/1ca/6PYgF+9/S2yZCQ==}
+  vocs@1.4.1:
+    resolution: {integrity: sha512-PwCODbht+/0f6wtAyz5czqdWaMX80KlxOc6Mkqfd0u6bboTZ+YcyBuZaiQwJ4lkDE6NvSrCosPVD5CxGyvtitg==}
     engines: {node: '>=22'}
     hasBin: true
     peerDependencies:
@@ -11047,7 +11047,7 @@ snapshots:
       tsx: 4.21.0
       yaml: 2.8.2
 
-  vocs@1.4.0(@types/node@25.0.3)(@types/react@19.2.7)(jiti@2.6.1)(lightningcss@1.30.2)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(rollup@4.54.0)(tsx@4.21.0)(typescript@5.9.3):
+  vocs@1.4.1(@types/node@25.0.3)(@types/react@19.2.7)(jiti@2.6.1)(lightningcss@1.30.2)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(rollup@4.54.0)(tsx@4.21.0)(typescript@5.9.3):
     dependencies:
       '@floating-ui/react': 0.27.16(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       '@hono/node-server': 1.19.7(hono@4.11.2)
