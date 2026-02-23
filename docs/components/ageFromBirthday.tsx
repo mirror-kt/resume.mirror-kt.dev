@@ -11,7 +11,7 @@ const AgeFromBirthday = ({
   const today = new Date();
   const thisYearsBirthday = new Date(
     today.getFullYear(),
-    birthday.getMonth() - 1,
+    birthday.getMonth(),
     birthday.getDate(),
   );
   let age = today.getFullYear() - birthday.getFullYear();
