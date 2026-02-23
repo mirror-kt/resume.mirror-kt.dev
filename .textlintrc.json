@@ -1,7 +1,7 @@
 {
-    "plugins": {
-        "mdx": true
-    },
+  "plugins": {
+    "mdx": true
+  },
   "rules": {
     "preset-japanese": true,
     "ja-unnatural-alphabet": true,

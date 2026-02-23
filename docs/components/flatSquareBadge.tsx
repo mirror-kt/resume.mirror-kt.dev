@@ -20,7 +20,7 @@ const FlatSquareBadge = ({
     <a href={href} target="_blank">
       <ShieldsStaticBadge
         alt={alt}
-        badgeContent={`${text}-%23${brandColor}.svg`}
+        badgeContent={`${text.replace("-", "--").replace("_", "__")}-%23${brandColor}.svg`}
         badgeStyle="flat-square"
         logo={logo}
         logoColor="white"
