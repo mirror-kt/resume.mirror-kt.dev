@@ -38,7 +38,7 @@
     "textlint-rule-preset-japanese": "10.0.4",
     "tsx": "4.21.0",
     "typescript": "5.9.3",
-    "wrangler": "4.67.0"
+    "wrangler": "4.68.0"
   },
   "packageManager": "pnpm@10.30.2",
   "pnpm": {
