@@ -37,7 +37,7 @@
     "textlint-rule-ja-unnatural-alphabet": "2.0.1",
     "textlint-rule-preset-japanese": "10.0.4",
     "tsx": "4.21.0",
-    "typescript": "5.9.3",
+    "typescript": "6.0.2",
     "wrangler": "4.80.0"
   },
   "packageManager": "pnpm@10.33.0",
