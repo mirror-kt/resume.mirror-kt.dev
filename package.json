@@ -40,7 +40,7 @@
     "typescript": "6.0.3",
     "wrangler": "4.95.0"
   },
-  "packageManager": "pnpm@10.33.4",
+  "packageManager": "pnpm@10.34.0",
   "pnpm": {
     "executionEnv": {
       "nodeVersion": "25.9.0"
