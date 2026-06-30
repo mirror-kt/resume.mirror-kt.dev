@@ -5,3 +5,9 @@ onlyBuiltDependencies:
   - workerd
 
 minimumReleaseAge: 10080 # 7 days
+
+allowBuilds:
+  '@playwright/browser-chromium': true
+  esbuild: true
+  sharp: true
+  workerd: true
