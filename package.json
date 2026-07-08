@@ -20,7 +20,7 @@
     "vocs": "1.4.1"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.5.1",
+    "@biomejs/biome": "2.5.2",
     "@playwright/browser-chromium": "1.61.1",
     "@proofdict/textlint-rule-proofdict": "3.1.2",
     "@textlint-ja/textlint-rule-no-filler": "1.1.0",
