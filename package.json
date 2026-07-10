@@ -36,7 +36,7 @@
     "textlint-rule-en-spell": "1.2.4",
     "textlint-rule-ja-unnatural-alphabet": "2.0.1",
     "textlint-rule-preset-japanese": "10.0.4",
-    "tsx": "4.22.5",
+    "tsx": "4.23.0",
     "typescript": "6.0.3",
     "wrangler": "4.107.0"
   },
