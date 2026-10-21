@@ -15,8 +15,8 @@
     "deploy:preview": "wrangler versions upload"
   },
   "dependencies": {
-    "react": "19.3.0",
-    "react-dom": "19.3.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
     "vocs": "1.4.1"
   },
   "devDependencies": {
