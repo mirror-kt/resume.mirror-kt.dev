@@ -6,12 +6,18 @@
 
 /* 印刷(PDF化)向けスタイル設定 */
 @media print {
+  /* 各ページの周囲に余白を取る */
+  @page {
+    margin: 15mm;
+  }
+
   /* サイドバー、ヘッダー、フッターなどを非表示にする */
   [data-v-gutter-logo],
   [data-v-gutter-left],
   [data-v-gutter-right],
   [data-v-gutter-top],
   [data-v-surface-bg],
+  [data-v-outline],
   [data-v-content-footer],
   [data-v-footer] {
     display: none;
