@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap");
+
+:root {
+  --vocs-font-family: "Noto Sans JP", sans-serif;
+}
+
+/* 印刷(PDF化)向けスタイル設定 */
+@media print {
+  /* 各ページの周囲に余白を取る */
+  @page {
+    margin: 15mm;
+  }
+
+  /* サイドバー、ヘッダー、フッターなどを非表示にする */
+  [data-v-gutter-logo],
+  [data-v-gutter-left],
+  [data-v-gutter-right],
+  [data-v-gutter-top],
+  [data-v-surface-bg],
+  [data-v-outline],
+  [data-v-content-footer],
+  [data-v-footer] {
+    display: none;
+  }
+
+  /* サイドバー、ヘッダー用にあった余白をリセット */
+  [data-v-main] {
+    margin-left: unset;
+    padding-top: unset;
+  }
+}

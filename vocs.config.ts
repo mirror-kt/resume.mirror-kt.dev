@@ -1,12 +1,8 @@
-import { defineConfig } from "vocs";
+import { defineConfig } from "vocs/config";
 
 export default defineConfig({
   title: "Resume of Misato Kano",
-  font: {
-    default: {
-      google: "Noto Sans JP",
-    },
-  },
+  renderStrategy: "full-static",
   sidebar: [
     {
       text: "Download as PDF",
@@ -24,8 +20,7 @@ export default defineConfig({
     },
   ],
   editLink: {
-    pattern:
-      "https://github.com/mirror-kt/resume.mirror-kt.dev/edit/main/docs/pages/:path",
+    link: "https://github.com/mirror-kt/resume.mirror-kt.dev/edit/main/src/pages/:path",
     text: "Edit on GitHub",
   },
 });
