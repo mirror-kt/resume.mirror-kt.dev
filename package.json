@@ -9,8 +9,8 @@
     "preview": "vocs preview",
     "format": "biome format .",
     "format:fix": "biome format --write .",
-    "lint": "biome lint . && textlint ./docs",
-    "lint:fix": "biome lint --write . && textlint --fix ./docs",
+    "lint": "biome lint . && textlint ./src",
+    "lint:fix": "biome lint --write . && textlint --fix ./src",
     "export:pdf": "tsx scripts/export-to-pdf.ts",
     "deploy:preview": "wrangler versions upload"
   },
