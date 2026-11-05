@@ -17,7 +17,7 @@ const FlatSquareBadge = ({
   logo,
 }: SocialAccountBadgeProps): JSX.Element => {
   return (
-    <a href={href} target="_blank">
+    <a href={href} target="_blank" rel="noopener noreferrer">
       <ShieldsStaticBadge
         alt={alt}
         badgeContent={`${text.replace("-", "--").replace("_", "__")}-%23${brandColor}.svg`}
