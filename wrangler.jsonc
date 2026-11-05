@@ -2,7 +2,7 @@
   "name": "resume",
   "compatibility_date": "2025-08-06",
   "assets": {
-    "directory": "./docs/dist"
+    "directory": "./dist/public"
   },
   "preview_urls": true,
   "route": {
