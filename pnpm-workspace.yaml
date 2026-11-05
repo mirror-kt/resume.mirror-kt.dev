@@ -1,5 +1,5 @@
 onlyBuiltDependencies:
-  - '@playwright/browser-chromium'
+  - "@playwright/browser-chromium"
   - esbuild
   - sharp
   - workerd
