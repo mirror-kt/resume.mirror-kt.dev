@@ -42,7 +42,7 @@
     "vite": "8.3.5",
     "wrangler": "4.156.0"
   },
-  "packageManager": "pnpm@10.34.9",
+  "packageManager": "pnpm@12.17.0",
   "pnpm": {
     "executionEnv": {
       "nodeVersion": "26.13.0"
