@@ -21,7 +21,7 @@
     "waku": "1.0.0-rc.4"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.6.5",
+    "@biomejs/biome": "2.6.6",
     "@playwright/browser-chromium": "1.65.0",
     "@proofdict/textlint-rule-proofdict": "3.1.2",
     "@textlint-ja/textlint-rule-no-filler": "1.1.0",
